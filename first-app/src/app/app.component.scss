@@ -1,0 +1,13 @@
+nav {
+  background-color: lightgray;
+
+  span {
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}
+
+.active {
+  font-weight: bolder;
+}
